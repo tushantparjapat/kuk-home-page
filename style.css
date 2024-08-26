@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.topnav{
+    background-color: rgb(168, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+}
+.topnav div{
+
+    margin: 0px 25px;
+}
+.topnav ul{
+    display: flex;
+    margin: 0px;
+    color: rgb(255, 255, 255);
+}
+.topnav ul li{
+    text-decoration: none;
+    list-style: none;
+    margin: 10px;
+}
+
+
+.midnav{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.midnav div{
+    margin: 0px 45px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.midnav .first ul li {
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+.midnav .first ul li img{
+    width: 120px;
+}
+.midnav .first ul{
+    display: flex;
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+.midnav .mid ul li img{
+    width: 500px;
+}
+.midnav .mid {
+    display: flex;
+}
+.midnav .mid ul{
+    display: grid;
+    
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.midnav ul li{
+    text-decoration: none;
+    list-style: none;
+    margin: 10px;
+}
+.midnavbtn{
+    background-color: rgb(243, 21, 21);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.midnav .last ul{
+   margin-top: 20%;
+}
+
+.lastnav{
+    background-color: rgb(33, 49, 108);
+}
+.lastnav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.lastnav ul li{
+    list-style: none;
+    color: white;
+    font-size: large;
+    /* margin: 0px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+header{margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+.marq{
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    margin: 20px;
+    height: 40px;
+    /* justify-content: center;
+    justify-items: center; */
+    align-items: center;
+    font-size: x-large;
+}
+.marqboxtitle{
+    background-color: rgb(168, 0, 0);
+    padding: 5px;
+    min-width: fit-content;
+    color: whitesmoke;
+}
+
+section{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
